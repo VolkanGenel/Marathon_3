@@ -1,0 +1,16 @@
+package com.volkan.utility;
+
+
+/**
+ * İlişkisel ya da ilişkisel olmayan tüm DB yapılarında
+ * kullanılmak üzere genişletilebilir entegre edilebilir bir sistem
+ * kullanmak için bu interface kullanılcaktır.
+ *
+ * @param <T>  Entity için type belirtir. (Musteri, Product v.s.)
+ * @param <ID> Entity içindeki @Id ile belirlenmiş id yi temsil eder
+ *             bu id nin type girlimelidir. (Long,String)
+ */
+public interface IMyRepository <T, ID>  {
+
+
+}
